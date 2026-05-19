@@ -13,13 +13,12 @@ function resolva() {
     const p = paragrafo
 
 
+
     if (op == 'divisao' && n2 == 0) {
-        alert('Não da para dividir por 0')
-
-
-    } else {
-        p.innerHTML =  n1 / n2
-
+        p.innerHTML = 'Não tem como  dividir por zero!'
+   
+       } else {
+           p.innerHTML =  n1 / n2
 
 
 
@@ -36,7 +35,9 @@ function resolva() {
 
     if (op == 'multiplicaçao') { p.innerHTML = n1 * n2 }
 
+
     
+   
 
     }
 
